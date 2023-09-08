@@ -10,7 +10,13 @@ const config: Config = {
     extend: {
       colors: {
         'primary': '#FCFBFA'
-      }
+      },
+      fontFamily: {
+        crimson: ['var(--font-crimson)'],
+        playfair: ['var(--font-playfair)'],
+        roboto: ['var(--font-roboto)'],
+      },
+
     },
   },
   plugins: [],

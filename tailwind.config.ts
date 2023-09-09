@@ -15,6 +15,7 @@ const config: Config = {
         crimson: ['var(--font-crimson)'],
         playfair: ['var(--font-playfair)'],
         roboto: ['var(--font-roboto)'],
+        thinman: ['var(--font-ThinMan)']
       },
 
     },

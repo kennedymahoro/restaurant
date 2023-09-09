@@ -1,6 +1,7 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Crimson_Text, Playfair_Display, Roboto } from 'next/font/google'
+import localfont from 'next/font/local'
 
 const crimson_text = Crimson_Text({
   subsets: ['latin'],
@@ -11,9 +12,9 @@ const crimson_text = Crimson_Text({
 
 const playfiar_display = Playfair_Display({
   subsets: ['latin'],
-  variable: '--font-playfiar',
+  variable: '--font-playfair',
   display: 'swap',
-  weight: '500'
+  weight: '400'
 })
 const roboto= Roboto({
   subsets: ['latin'],
@@ -21,6 +22,12 @@ const roboto= Roboto({
   display: 'swap',
   weight: '400'
 })
+const ThinMan = localfont({
+  src: './ThinMan.ttf',
+  display:'swap',
+  variable:'--font-ThinMan'
+})
+
 export const metadata: Metadata = {
   title: 'Canlis - Home',
   description: "Seattle's landmark fine-dining destination for 70 years and recent home to multi-disciplinary pandemic pivots designed to serve our city.",
@@ -33,7 +40,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`w-full h-full ${crimson_text.variable} ${playfiar_display.variable} ${roboto.variable}`}>
+    <html lang="en" className={`w-full h-full ${crimson_text.variable} ${playfiar_display.variable} ${roboto.variable} ${ThinMan.variable}`}>
       <body >{children}</body>
     </html>
   )

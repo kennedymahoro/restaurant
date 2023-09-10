@@ -44,7 +44,7 @@ export default function Navbar(props?){
 		}
 	}
 	return(
-		<nav className="text-black flex justify-between pt-4 w-full lg:p-16">
+		<nav className="text-black flex justify-between p-4 w-full lg:p-16">
 			<Title_ />
 			<button onClick={Toggle} className=" underline underline-offset-2 text-sm lg:hidden">Menu</button>	
 			<SideBar />

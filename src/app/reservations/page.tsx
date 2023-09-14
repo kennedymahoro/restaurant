@@ -1,13 +1,13 @@
 import Navbar from "@/components/nav"
 import Footer from "@/components/footer"
 export default function Reservation(){
-  const className_div = "mx-4 my-10";
+  const className_div = "my-10";
   const className_h6 = "";
-  const className_p = "text-xs my-2 font-thin font-crimson"
+  const className_p = "text-xs my-2 font-thin font-crimson sm:w-11/12 sm:text-base lg:w-6/12 "
   return(
-  <div className="w-screen h-screen text-sm">
+  <div className="w-screen h-screen text-sm sm:mx-14">
       <Navbar />
-      <h1 className="font-thinman text-5xl mt-64 mb-56 mx-4">Reservations</h1>
+      <h1 className="font-thinman text-5xl mt-64 lg:mt-0 lg:text-6xl lg:tracking-wide mb-56 mx-4  sm:text-8xl sm:mt-96">Reservations</h1>
       <div className={className_div}>
         <h6 className={className_h6}>GET A TABLE</h6>
         <p className={className_p}>Tables become available 3 months in advance, and can be made online through Tock.</p>
@@ -32,8 +32,8 @@ export default function Reservation(){
         <p className={className_p}>If you need to cancel a reservation for any reason you may do so forty-eight hours in advance and we will issue a full refund of your deposit. The reservation becomes non-refundable two days prior to your booking. Reservations changing to a smaller party size do not receive a refunded deposit. To recoup the deposit for a reservation decreasing in size you may cancel the reservation outside the 48-hour window and rebook a smaller table if one is available. We cannot make exceptions for COVID-19 diagnoses.</p>
       </div>
 
-      <h6 className=" mx-4">OTHER QUESTIONS</h6>
-      <p className={`${className_p} mx-4`}>Please email <a href="mailto:reservations@canlis.com">reservations@canlis.com</a></p>
+      <h6 className=" ">OTHER QUESTIONS</h6>
+      <p className={`${className_p}`}>Please email <a href="mailto:reservations@canlis.com">reservations@canlis.com</a></p>
 
       <Footer /> 
     </div>

@@ -5,8 +5,10 @@ export default function Reservation(){
   const className_h6 = "";
   const className_p = "text-xs my-2 font-thin font-crimson sm:w-11/12 sm:text-base lg:w-6/12 "
   return(
-  <div className="w-screen h-screen text-sm sm:mx-14">
+  <div className="w-screen h-screen text-sm ">
       <Navbar />
+      <div className="sm: mx-12">
+
       <h1 className="font-thinman text-5xl mt-64 lg:mt-0 lg:text-6xl lg:tracking-wide mb-56 mx-4  sm:text-8xl sm:mt-96">Reservations</h1>
       <div className={className_div}>
         <h6 className={className_h6}>GET A TABLE</h6>
@@ -36,6 +38,7 @@ export default function Reservation(){
       <p className={`${className_p}`}>Please email <a href="mailto:reservations@canlis.com">reservations@canlis.com</a></p>
 
       <Footer /> 
+      </div>
     </div>
   )
 }

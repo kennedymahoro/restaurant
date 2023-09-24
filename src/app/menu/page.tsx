@@ -9,7 +9,7 @@ import plate_fish from '/public/plate_fish.jpg'
 
 export default function Menu(){
 
-  const Menu_Section_items = (props) => {
+  const Menu_Section_items = (props:{name:string,items:string}) => {
     return(
       <div className="my-7">
         <p className="font-roboto text-sm mb-1">{props.name}</p>
@@ -18,7 +18,7 @@ export default function Menu(){
     )
   }
 
-  const Menu_Section = (props) => {
+  const Menu_Section = (props:{name1:string,name2:string,name3:string,item1:string,item2:string,item3:string,title:string}) => {
     return (
       <section className="mx-5 my-16">
         <h6 className="italic font-crimson my-4">{props.title}</h6>

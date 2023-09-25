@@ -17,7 +17,7 @@ export default function Ourstory(){
 
   const PP = (props:{text:string}) => {
     return(
-      <p className="text-xs mx-2 my-4 font-crimson">{props.text}</p>
+      <p className="text-xss mx-2 my-4 font-merriweather grid place-items-center">{props.text}</p>
     )
   }
 
@@ -25,13 +25,19 @@ export default function Ourstory(){
     <div className = " w-full h-full">
       <Navbar />
       <div>
-        <div className="flex flex-col items-center">
-          <h1>Every Family</h1>
+        <div className="text-5xl font-thinman font-thin mt-28 mb-72 ml-4 ">
+          <div className="">
+            <h1 className=" ">Every</h1>
+            <h1 className="lg:ml-2 ">Family</h1>
+          </div>
           <h1>has its own story.</h1>
           <h1>Ours starts</h1>
-          <h1>with a runaway.</h1>
+          <div>
+            <h1>with a</h1>
+            <h1>runaway</h1>
+          </div>
         </div>
-        <div>
+        <div className="text-center text-xs my-10">
           <p>FIRST GENERATION</p>
           <p>1950 - 1977</p>
         </div>

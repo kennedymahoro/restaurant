@@ -1,6 +1,6 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Crimson_Text, Playfair_Display, Roboto } from 'next/font/google'
+import { Crimson_Text, Playfair_Display, Roboto, Merriweather } from 'next/font/google'
 import localfont from 'next/font/local'
 
 const crimson_text = Crimson_Text({
@@ -27,6 +27,12 @@ const ThinMan = localfont({
   display:'swap',
   variable:'--font-ThinMan'
 })
+const merriweather = Merriweather({
+  subsets: ['latin'],
+  display:'swap',
+  weight: '400',
+  variable:'--font-merriweather'
+})
 
 export const metadata: Metadata = {
   title: 'Canlis - Home',
@@ -40,7 +46,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`w-full h-full ${crimson_text.variable} ${playfiar_display.variable} ${roboto.variable} ${ThinMan.variable}`}>
+    <html lang="en" className={`w-full h-full ${crimson_text.variable} ${playfiar_display.variable} ${roboto.variable} ${ThinMan.variable} ${merriweather.variable}`}>
       <body >{children}</body>
     </html>
   )

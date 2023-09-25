@@ -15,7 +15,13 @@ const config: Config = {
         crimson: ['var(--font-crimson)'],
         playfair: ['var(--font-playfair)'],
         roboto: ['var(--font-roboto)'],
-        thinman: ['var(--font-ThinMan)']
+        thinman: ['var(--font-ThinMan)'],
+        merriweather: ['var(--font-merriweather)'],
+      },
+      fontSize: {
+        'xss': ['.65rem',{
+        lineHeight: '2.25em',
+      }],
       },
 
     },

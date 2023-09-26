@@ -20,11 +20,6 @@ export default function Ourstory(){
       <p className="text-xss mx-2 my-4 font-merriweather grid place-items-center">{props.text}</p>
     )
   }
-  const H6 = (props:{text:string}) => {
-    return(
-      <h6 className="text-center text-xs my-10">{props.text}</h6>
-    )
-  }
 
   return(
     <div className = " w-full h-full bg-primary">
@@ -53,7 +48,7 @@ export default function Ourstory(){
           <Image src={Peter_Plane} alt="Picture of the peter next to a plane" />
         </div>
         <div>
-          <H6 text="WORDS BY MARK CANLIS"/>
+          <h6>WORDS BY MARK CANLIS</h6>
           <PP text='Family lore has it that as a very young man, Nicholas Kanlis swam five miles from the island of Lesvos, Greece to the shores of Turkey. Then he hitchhiked his way to the Mena House Hotel in Cairo where he met Teddy Roosevelt and signed on as a cook for the Smithsonian–Roosevelt African Expedition. For more than a year they traveled the rural Africa together, collecting 1100 specimens that would find their way back to the Smithsonian Institute. Eventually, Nick would reach American shores, clearing immigration with an Egyptian passport and settling down in Stockton, California.'
           />
           <PP text='
@@ -98,8 +93,8 @@ export default function Ourstory(){
           <Image src={restaurants_canlis2} alt="Picture of the peter next to a plane" />
         </div>
         <div>
-          <H6 text="SECOND GENERATION"/>
-          <H6 text="1977 - 2007"/>
+          <h6>SECOND GENERATION</h6>
+          <h6>1977 - 2007</h6>
         </div>
         <div className="w-fit h-auto">
           <Image src={Alice_Smiling} alt="Picture of the peter next to a plane" />
@@ -119,8 +114,8 @@ export default function Ourstory(){
           />
         </div>
         <div>
-          <H6 text="THIRD GENERATION"/>
-          <H6 text="2007 - PRESENT"/>
+          <h6>THIRD GENERATION</h6>
+          <h6>2007 - PRESENT</h6>
         </div>
         <div className="w-fit h-auto">
           <Image src={markbrain} alt="Picture of the peter on the phone" />

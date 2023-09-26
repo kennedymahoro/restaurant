@@ -22,7 +22,7 @@ export default function Ourstory(){
   }
 
   return(
-    <div className = " w-full h-full">
+    <div className = " w-full h-full bg-primary">
       <Navbar />
       <div>
         <div className="text-5xl font-thinman font-thin mt-28 mb-72 ml-4 ">

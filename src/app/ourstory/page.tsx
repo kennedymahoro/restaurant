@@ -17,7 +17,9 @@ export default function Ourstory(){
 
   const PP = (props:{text:string}) => {
     return(
-      <p className="text-xss mx-2 my-4 font-merriweather grid place-items-center">{props.text}</p>
+      <div className="flex  justify-start mx-2">
+        <p className="text-xss mx-2 my-4 font-merriweather">{props.text}</p>
+      </div>
     )
   }
   const H6 = (props:{text:string}) => {

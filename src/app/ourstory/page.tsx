@@ -48,10 +48,10 @@ export default function Ourstory(){
           <p>FIRST GENERATION</p>
           <p>1950 - 1977</p>
         </div>
-        <div className="w-fit h-auto transform -rotate-6">
+        <div className="w-fit h-auto transform -rotate-6 my-9">
           <Image src={Peter_Phone} alt="Picture of the peter on the phone" />
         </div>
-        <div className="w-fit h-auto transform rotate-6">
+        <div className="w-fit h-auto transform rotate-6 my-9">
           <Image src={Peter_Plane} alt="Picture of the peter next to a plane" />
         </div>
         <div>
@@ -73,10 +73,10 @@ export default function Ourstory(){
             After the war, Peter opened his first restaurant, The Broiler, on a little-known beach called Waikiki. Humble in size (and signage...it hung from a palm tree) the restaurant hired Japanese women for the traditionally-male role of server captain. It was 1947. As best we know, these women changed the future of American fine dining. It was a social experiment ahead of its time. The Broiler exchanged European pretension for humility, hubris for Japanese warmth and hospitality. Gone were the tuxedos and traditional captain-style service. The Broiler, with firsts like tip-pools and team-style service, and cuisine that celebrated European and Eastern techniques was not just an immediate success, but nothing less than a recipe for the future of American dining.'
           />
         </div>
-        <div className="w-fit h-auto transform rotate-6">
+        <div className="w-fit h-auto transform rotate-6 my-9">
           <Image src={Broiler_Door} alt="Picture of the restaurant door" />
         </div>
-        <div className="w-fit h-auto transform -rotate-6">
+        <div className="w-fit h-auto transform -rotate-6 my-9">
           <Image src={Broiler_Patio} alt="Picture of the restaurant patio" />
         </div>
         <div>
@@ -90,23 +90,23 @@ export default function Ourstory(){
             In the years to follow, three more restaurants were built. Returning to Hawaii with funds and reputation to spare, The Broiler was replaced with the island’s most iconic and storied restaurant, Canlis Honolulu. In San Francisco, he insisted The Fairmont rebuild the first floor to include Canlis’ iconic stone and windows. At the time, it was the most expensive restaurant ever built in America. In Portland, Baron Hilton asked him to build on top of his newest hotel, and then made deals for half a dozen more."
           /> 
         </div>
-        <div className="w-fit h-auto transform -rotate-6">
+        <div className="w-fit h-auto transform -rotate-6 my-9">
           <Image src={restaurants_canlis} alt="Picture of the peter on the phone" />
         </div>
-        <div className="w-fit h-auto transform rotate-6">
+        <div className="w-fit h-auto transform rotate-6 my-9">
           <Image src={restaurants_canlis1} alt="Picture of the peter next to a plane" />
         </div>
-        <div className="w-fit h-auto transform -rotate-6">
+        <div className="w-fit h-auto transform -rotate-6 my-9">
           <Image src={restaurants_canlis2} alt="Picture of the peter next to a plane" />
         </div>
         <div>
           <H6 text="SECOND GENERATION" />
           <H6 text="1977 - 2007" />
         </div>
-        <div className="w-fit h-auto transform -rotate-6">
+        <div className="w-fit h-auto transform -rotate-6 my-9">
           <Image src={Alice_Smiling} alt="Picture of the peter next to a plane" />
         </div>
-        <div className="w-fit h-auto transform rotate-6">
+        <div className="w-fit h-auto transform rotate-6 my-9">
           <Image src={Seattle_Outside} alt="Picture of the peter next to a plane" />
         </div>
         <div>
@@ -124,10 +124,10 @@ export default function Ourstory(){
           <H6 text="THIRD GENERATION" />
           <H6 text="2007 - PRESENT" />
         </div>
-        <div className="w-fit h-auto transform -rotate-6">
+        <div className="w-fit h-auto transform -rotate-6 my-9">
           <Image src={markbrain} alt="Picture of the peter on the phone" />
         </div>
-        <div className="w-fit h-auto transform rotate-6">
+        <div className="w-fit h-auto transform rotate-6 my-9">
           <Image src={beardd} alt="Picture of the peter next to a plane" />
         </div>
         <div>

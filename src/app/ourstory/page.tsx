@@ -24,7 +24,7 @@ export default function Ourstory(){
   }
   const H6 = (props:{text:string}) => {
     return(
-      <p className="">{props.text}</p>
+      <p className=" mx-4 text-sm font-roboto">{props.text}</p>
     )
   }
 

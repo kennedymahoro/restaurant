@@ -148,7 +148,9 @@ export default function Ourstory(){
           />
         </div>
       </div>
-      <Footer />
+      <div className="mx-4">
+        <Footer />
+      </div>
     </div>
   )
 }

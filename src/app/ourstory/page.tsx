@@ -99,10 +99,12 @@ export default function Ourstory(){
         <div className="w-fit h-auto transform -rotate-6 my-9">
           <Image src={restaurants_canlis2} alt="Picture of the peter next to a plane" />
         </div>
-        <div className="grid place-items-center">
-          <h6 className="text-sm font-roboto">SECOND GENERATION</h6>
-          <h6 className="text-sm font-roboto">1977 - 2007</h6>
+
+        <div className="grid place-items-center my-24">
+          <h6 className="text-xs font-roboto">SECOND GENERATION</h6>
+          <h6 className="text-xs font-roboto">1977 - 2007</h6>
         </div>
+
         <div className="w-fit h-auto transform -rotate-6 my-9">
           <Image src={Alice_Smiling} alt="Picture of the peter next to a plane" />
         </div>
@@ -120,9 +122,9 @@ export default function Ourstory(){
             Hospitality was not so much a business for our parents as it was a natural response to the inevitable moment they came face to face with another human being. They taught us that carving out space for one another would likely be hard but worth it. That it was a form of generosity: a power and wealth that everyone had equal access and right to. A function of one’s character, not their circumstances."
           />
         </div>
-        <div className="grid place-items-center">
-          <h6 className="text-sm font-roboto">THIRD GENERATION</h6>
-          <h6 className="text-sm font-roboto">2007 - PRESENT</h6>
+        <div className="grid place-items-center my-24">
+          <h6 className="text-xs font-roboto">THIRD GENERATION</h6>
+          <h6 className="text-xs font-roboto">2007 - PRESENT</h6>
         </div>
         <div className="w-fit h-auto transform -rotate-6 my-9">
           <Image src={markbrain} alt="Picture of the peter on the phone" />

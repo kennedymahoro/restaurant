@@ -38,7 +38,7 @@ export default function Ourstory(){
             <h1 className="lg:ml-2 ">Family</h1>
           </div>
           <h1>has its own story.</h1>
-          <h1>Ours starts</h1>
+          <h1 className="text-center">Ours starts</h1>
           <div>
             <h1>with a</h1>
             <h1>runaway</h1>

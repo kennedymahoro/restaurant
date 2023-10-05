@@ -34,7 +34,7 @@ export default function Ourstory(){
       <div>
         <div className="text-5xl font-thinman font-thin mt-28 mb-72 ml-4 ">
           <div className="">
-            <h1 className=" ">Every</h1>
+            <h1 className=" text-center ">Every</h1>
             <h1 className="lg:ml-2 ">Family</h1>
           </div>
           <h1>has its own story.</h1>

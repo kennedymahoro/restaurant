@@ -32,7 +32,7 @@ export default function Ourstory(){
     <div className = " w-full h-full bg-primary">
       <Navbar />
       <div>
-        <div className="text-5xl font-thinman font-thin mt-32 mb-64 ml-6">
+        <div className="text-5xl font-thinman font-thin mt-32 mb-64 ml-6 md:text-8xl md:mt-24 md:ml-12">
           <div className="">
             <h1 className=" text-center ">Every</h1>
             <h1 className="lg:ml-2 ">Family</h1>
@@ -54,7 +54,7 @@ export default function Ourstory(){
         <div className="w-fit h-auto transform rotate-6 my-9">
           <Image src={Peter_Plane} alt="Picture of the peter next to a plane" />
         </div>
-        <div>
+        <div className="md:mt-10">
           <H6 text="WORDS BY MARK CANLIS" />
           <PP text='Family lore has it that as a very young man, Nicholas Kanlis swam five miles from the island of Lesvos, Greece to the shores of Turkey. Then he hitchhiked his way to the Mena House Hotel in Cairo where he met Teddy Roosevelt and signed on as a cook for the Smithsonian–Roosevelt African Expedition. For more than a year they traveled the rural Africa together, collecting 1100 specimens that would find their way back to the Smithsonian Institute. Eventually, Nick would reach American shores, clearing immigration with an Egyptian passport and settling down in Stockton, California.'
           />

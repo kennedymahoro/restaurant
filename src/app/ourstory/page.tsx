@@ -18,7 +18,7 @@ export default function Ourstory(){
   const PP = (props:{text:string}) => {
     return(
       <div className="flex  justify-start mx-2">
-        <p className="text-xss mx-2 my-4 font-merriweather">{props.text}</p>
+        <p className="text-xss mx-2 my-4 md:my-2 font-merriweather">{props.text}</p>
       </div>
     )
   }
@@ -54,7 +54,7 @@ export default function Ourstory(){
         <div className="w-fit h-auto transform rotate-6 my-9">
           <Image src={Peter_Plane} alt="Picture of the peter next to a plane" />
         </div>
-        <div className="md:mt-10">
+        <div className="md:mt-24 md:mx-10">
           <H6 text="WORDS BY MARK CANLIS" />
           <PP text='Family lore has it that as a very young man, Nicholas Kanlis swam five miles from the island of Lesvos, Greece to the shores of Turkey. Then he hitchhiked his way to the Mena House Hotel in Cairo where he met Teddy Roosevelt and signed on as a cook for the Smithsonian–Roosevelt African Expedition. For more than a year they traveled the rural Africa together, collecting 1100 specimens that would find their way back to the Smithsonian Institute. Eventually, Nick would reach American shores, clearing immigration with an Egyptian passport and settling down in Stockton, California.'
           />
@@ -65,7 +65,7 @@ export default function Ourstory(){
             In 1939, Peter left the family and its restaurant and struck out on his own. Maybe he was keeping in his father’s tradition. A few who knew him said he had something to prove—a vision too grand for his family’s small cafe to bear. With the untested confidence of youth and a first-generation immigrant chip on his shoulder, he left to make a name for himself in Hawaii. It was then a place of passenger ships and Pan-American Airways, royal palaces and rows of palms on underdeveloped beaches. This paradise was full of promise. And war.'
           />
         </div>
-        <div>
+        <div className="md:mx-10 my-20">
           <PP text='
             On December 7, 1941 Peter watched Imperial Japanese aircraft raid Wheeler Field. As a reeling nation lurched into action, the people of Honolulu, and our grandfather, put Pearl Harbor back together. To better support its troops, America formed the United Services Organization in 1941, and hired a young kid from Stockton who had a lot to prove to run one of the busiest kitchens in the Pacific. He won the job with a challenge that he could outcook anyone on the base, and within a few months a surging war and word of mouth saw the USO preparing 3,500 meals a day. Peter Canlis, who’d run away from the restaurant business, quickly showed the island that the best meal in Hawaii was at the USO.'
           />

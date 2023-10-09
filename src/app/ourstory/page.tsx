@@ -49,7 +49,7 @@ export default function Ourstory(){
           <p>1950 - 1977</p>
         </div>
         <div className="w-fit h-auto transform -rotate-6 my-9">
-          <Image src={Peter_Phone} alt="Picture of the peter on the phone" />
+          <Image src={Peter_Phone} alt="Picture of the peter on the phone"  />
         </div>
         <div className="w-fit h-auto transform rotate-6 my-9">
           <Image src={Peter_Plane} alt="Picture of the peter next to a plane" />

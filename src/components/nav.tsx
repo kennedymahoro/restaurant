@@ -35,7 +35,7 @@ export default function Navbar(props?){
 					</li>
 
 						<AA href="/menu" text="MENU"/>
-						<AA href="/ourstory"text="OUR STORY"/>
+						<AA href="/story"text="OUR STORY"/>
 						<AA href="/drinks" text="WINE & SPIRITS"/>
 						<AA href="/events" text="EVENTS"/>
 						<AA href="/careers" text="CAREERS"/>
@@ -57,7 +57,7 @@ export default function Navbar(props?){
 					</li>
 
 					<AA href="/menu" text="MENU"/>
-					<AA href="/ourstory"text="OUR STORY"/>
+					<AA href="/story"text="OUR STORY"/>
 					<AA href="/drinks" text="WINE & SPIRITS"/>
 					<AA href="/events" text="EVENTS"/>
 					<AA href="/careers" text="CAREERS"/>

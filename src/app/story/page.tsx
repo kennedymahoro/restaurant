@@ -79,7 +79,7 @@ export default function Ourstory(){
         <div className="w-fit h-auto transform -rotate-6 my-9">
           <Image src={Broiler_Patio} alt="Picture of the restaurant patio" />
         </div>
-        <div>
+        <div className="md:mx-10 md:my-24">
           <PP text="
             In 1950, Peter Canlis moved to Seattle and opened the restaurant that would make his mark on the nation’s emerging fine dining scene. Borrowing all he could (fifty thousand dollars) he sought to build a restaurant in the heart of the city, but as an outsider he could not break in. Unknown, untrusted, and with “an idea so crazy that Seattle would never go for it” Peter fought to find his start. Famed restaurateur Walter Clark took an interest in the newcomer and offered a piece of land “way outside the city.” Even as young kids we could recite his answer: “If it’s within a dollar’s cab ride of downtown, they'll come."
           />
@@ -100,7 +100,7 @@ export default function Ourstory(){
           <Image src={restaurants_canlis2} alt="Picture of the peter next to a plane" />
         </div>
 
-        <div className="grid place-items-center my-24">
+        <div className="grid place-items-center my-24 md:my-36">
           <h6 className="text-xs font-roboto">SECOND GENERATION</h6>
           <h6 className="text-xs font-roboto">1977 - 2007</h6>
         </div>
@@ -111,7 +111,7 @@ export default function Ourstory(){
         <div className="w-fit h-auto transform rotate-6 my-9">
           <Image src={Seattle_Outside} alt="Picture of the peter next to a plane" />
         </div>
-        <div>
+        <div className="md:mx-10 md:my-24">
           <PP text="
             In 1977, we moved to Seattle. I was three. That was the year my younger brother was born. The year Peter asked our father to take over the company. The year he eventually died of cancer. In 1977 the soul of our company passed away with its founder. And in its place a new soul was reborn. Wary of the repercussions of restaurant life on a family, mom and dad were reluctant restaurateurs. Our board of directors even advised they sell the company before ruining its value. Peter Canlis they were not. Seattle, the board, and everyone knew it...and this likely saved our company."
           />
@@ -122,7 +122,7 @@ export default function Ourstory(){
             Hospitality was not so much a business for our parents as it was a natural response to the inevitable moment they came face to face with another human being. They taught us that carving out space for one another would likely be hard but worth it. That it was a form of generosity: a power and wealth that everyone had equal access and right to. A function of one’s character, not their circumstances."
           />
         </div>
-        <div className="grid place-items-center my-24">
+        <div className="grid place-items-center my-24 md:my-36">
           <h6 className="text-xs font-roboto">THIRD GENERATION</h6>
           <h6 className="text-xs font-roboto">2007 - PRESENT</h6>
         </div>
@@ -132,7 +132,7 @@ export default function Ourstory(){
         <div className="w-fit h-auto transform rotate-6 my-9">
           <Image src={beardd} alt="Picture of the peter next to a plane" />
         </div>
-        <div>
+        <div className="md:mx-10 md:my-24">
           <PP text="
             In 2007, my brother and I officially took over the company. We took it from a Greek runaway come to America to find a new home. We took it from a restaurant visionary who staked it all to make a name for his family. We took it from the loving arms of our parents who breathed life into the world around them."
           />
@@ -150,7 +150,7 @@ export default function Ourstory(){
           />
         </div>
       </div>
-      <div className="mx-4">
+      <div className="mx-4 md:mx-10">
         <Footer />
       </div>
     </div>

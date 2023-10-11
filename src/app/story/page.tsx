@@ -30,7 +30,9 @@ export default function Ourstory(){
 
   return(
     <div className = " w-full h-full bg-primary">
-      <Navbar />
+      <div className="md:mx-8">
+        <Navbar />
+      </div>
       <div>
         <div className="text-5xl font-thinman font-thin mt-32 mb-64 ml-6 md:text-8xl md:mt-24 md:ml-12">
           <div className="">
@@ -150,7 +152,7 @@ export default function Ourstory(){
           />
         </div>
       </div>
-      <div className="mx-4 md:mx-10">
+      <div className="mx-4 md:mx-14">
         <Footer />
       </div>
     </div>

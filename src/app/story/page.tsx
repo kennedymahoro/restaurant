@@ -34,10 +34,10 @@ export default function Ourstory(){
         <Navbar />
       </div>
       <div>
-        <div className="text-5xl font-thinman font-thin mt-32 mb-64 ml-6 md:text-8xl md:mt-24 md:ml-12">
-          <div className="">
+        <div className="text-5xl font-thinman font-thin mt-32 mb-64 ml-6 md:text-8xl md:mt-24 md:ml-12 lg:grid lg:place-items-center">
+          <div className=" lg:flex">
             <h1 className=" text-center ">Every</h1>
-            <h1 className="lg:ml-2 ">Family</h1>
+            <h1 className="lg:ml-4 ">Family</h1>
           </div>
           <h1>has its own story.</h1>
           <h1 className="text-center">Ours starts</h1>
@@ -46,6 +46,7 @@ export default function Ourstory(){
             <h1>runaway</h1>
           </div>
         </div>
+
         <div className="text-center text-xs my-10">
           <p>FIRST GENERATION</p>
           <p>1950 - 1977</p>

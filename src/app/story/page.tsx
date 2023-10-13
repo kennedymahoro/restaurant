@@ -51,23 +51,30 @@ export default function Ourstory(){
           <p>FIRST GENERATION</p>
           <p>1950 - 1977</p>
         </div>
-        <div className="w-fit h-auto transform -rotate-6 my-9">
-          <Image src={Peter_Phone} alt="Picture of the peter on the phone"  />
+
+        <div className="lg:flex">
+          <div className="lg:flex-col">
+            <div className="w-fit h-auto transform -rotate-6 my-9">
+              <Image src={Peter_Phone} alt="Picture of the peter on the phone"  />
+            </div>
+            <div className="w-fit h-auto transform rotate-6 my-9">
+              <Image src={Peter_Plane} alt="Picture of the peter next to a plane" />
+            </div>
+          </div>
+
+          <div className="md:mt-24 md:mx-10">
+            <H6 text="WORDS BY MARK CANLIS" />
+            <PP text='Family lore has it that as a very young man, Nicholas Kanlis swam five miles from the island of Lesvos, Greece to the shores of Turkey. Then he hitchhiked his way to the Mena House Hotel in Cairo where he met Teddy Roosevelt and signed on as a cook for the Smithsonian–Roosevelt African Expedition. For more than a year they traveled the rural Africa together, collecting 1100 specimens that would find their way back to the Smithsonian Institute. Eventually, Nick would reach American shores, clearing immigration with an Egyptian passport and settling down in Stockton, California.'
+            />
+            <PP text='
+              Along the way he met our great grandmother, an immigrant herself--a Lebanese beauty--and the most talented cook our dad claims to have ever met. Together, they opened the first-generation Canlis restaurant in 1910. It was a mom and pop shop from the old world. A family cafe they named The Food Palace and Fish Grotto. It was heart and sweat and hope. The untamed west and the streets of Stockton, two honest, immigrant parents and “The Palace” raised our grandfather. His name was Peter Canlis.'
+            />
+            <PP text='
+              In 1939, Peter left the family and its restaurant and struck out on his own. Maybe he was keeping in his father’s tradition. A few who knew him said he had something to prove—a vision too grand for his family’s small cafe to bear. With the untested confidence of youth and a first-generation immigrant chip on his shoulder, he left to make a name for himself in Hawaii. It was then a place of passenger ships and Pan-American Airways, royal palaces and rows of palms on underdeveloped beaches. This paradise was full of promise. And war.'
+            />
+          </div>
         </div>
-        <div className="w-fit h-auto transform rotate-6 my-9">
-          <Image src={Peter_Plane} alt="Picture of the peter next to a plane" />
-        </div>
-        <div className="md:mt-24 md:mx-10">
-          <H6 text="WORDS BY MARK CANLIS" />
-          <PP text='Family lore has it that as a very young man, Nicholas Kanlis swam five miles from the island of Lesvos, Greece to the shores of Turkey. Then he hitchhiked his way to the Mena House Hotel in Cairo where he met Teddy Roosevelt and signed on as a cook for the Smithsonian–Roosevelt African Expedition. For more than a year they traveled the rural Africa together, collecting 1100 specimens that would find their way back to the Smithsonian Institute. Eventually, Nick would reach American shores, clearing immigration with an Egyptian passport and settling down in Stockton, California.'
-          />
-          <PP text='
-            Along the way he met our great grandmother, an immigrant herself--a Lebanese beauty--and the most talented cook our dad claims to have ever met. Together, they opened the first-generation Canlis restaurant in 1910. It was a mom and pop shop from the old world. A family cafe they named The Food Palace and Fish Grotto. It was heart and sweat and hope. The untamed west and the streets of Stockton, two honest, immigrant parents and “The Palace” raised our grandfather. His name was Peter Canlis.'
-          />
-          <PP text='
-            In 1939, Peter left the family and its restaurant and struck out on his own. Maybe he was keeping in his father’s tradition. A few who knew him said he had something to prove—a vision too grand for his family’s small cafe to bear. With the untested confidence of youth and a first-generation immigrant chip on his shoulder, he left to make a name for himself in Hawaii. It was then a place of passenger ships and Pan-American Airways, royal palaces and rows of palms on underdeveloped beaches. This paradise was full of promise. And war.'
-          />
-        </div>
+
         <div className="md:mx-10 my-20">
           <PP text='
             On December 7, 1941 Peter watched Imperial Japanese aircraft raid Wheeler Field. As a reeling nation lurched into action, the people of Honolulu, and our grandfather, put Pearl Harbor back together. To better support its troops, America formed the United Services Organization in 1941, and hired a young kid from Stockton who had a lot to prove to run one of the busiest kitchens in the Pacific. He won the job with a challenge that he could outcook anyone on the base, and within a few months a surging war and word of mouth saw the USO preparing 3,500 meals a day. Peter Canlis, who’d run away from the restaurant business, quickly showed the island that the best meal in Hawaii was at the USO.'

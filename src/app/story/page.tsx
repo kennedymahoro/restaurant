@@ -47,7 +47,7 @@ export default function Ourstory(){
           <div className="lg:flex">
 
             <h1>with a</h1>
-            <h1 className="lg:ml-4">runaway</h1>
+            <h1 className="lg:ml-4">runaway.</h1>
 
           </div>
         </div>

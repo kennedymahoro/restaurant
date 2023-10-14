@@ -36,14 +36,19 @@ export default function Ourstory(){
       <div>
         <div className="text-5xl font-thinman font-thin mt-32 lg:mt-48 mb-64 ml-6 md:text-8xl md:mt-24 md:ml-12 lg:grid lg:place-items-center">
           <div className=" lg:flex">
+
             <h1 className=" text-center ">Every</h1>
             <h1 className="lg:ml-4 ">Family</h1>
           </div>
+
           <h1>has its own story.</h1>
+
           <h1 className="text-center">Ours starts</h1>
-          <div>
+          <div className="lg:flex">
+
             <h1>with a</h1>
-            <h1>runaway</h1>
+            <h1 className="lg:ml-4">runaway</h1>
+
           </div>
         </div>
 

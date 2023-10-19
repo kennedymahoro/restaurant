@@ -98,8 +98,8 @@ export default function Ourstory(){
             </div>
           </div>
         </div>
-
-        <div className="md:mx-10 md:my-24">
+        <div className="lg:flex lg:flex-row-reverse">
+        <div className="md:mx-10 md:my-24 lg:w-9/12">
           <PP text="
             In 1950, Peter Canlis moved to Seattle and opened the restaurant that would make his mark on the nation’s emerging fine dining scene. Borrowing all he could (fifty thousand dollars) he sought to build a restaurant in the heart of the city, but as an outsider he could not break in. Unknown, untrusted, and with “an idea so crazy that Seattle would never go for it” Peter fought to find his start. Famed restaurateur Walter Clark took an interest in the newcomer and offered a piece of land “way outside the city.” Even as young kids we could recite his answer: “If it’s within a dollar’s cab ride of downtown, they'll come."
           />
@@ -110,16 +110,18 @@ export default function Ourstory(){
             In the years to follow, three more restaurants were built. Returning to Hawaii with funds and reputation to spare, The Broiler was replaced with the island’s most iconic and storied restaurant, Canlis Honolulu. In San Francisco, he insisted The Fairmont rebuild the first floor to include Canlis’ iconic stone and windows. At the time, it was the most expensive restaurant ever built in America. In Portland, Baron Hilton asked him to build on top of his newest hotel, and then made deals for half a dozen more."
           /> 
         </div>
-        <div className="w-fit h-auto transform -rotate-6 my-9">
-          <Image src={restaurants_canlis} alt="Picture of the peter on the phone" />
+          <div className="lg:flex lg:flex-col lg:w-8/12">
+            <div className="w-fit h-auto transform -rotate-6 my-9">
+              <Image src={restaurants_canlis} alt="Picture of the peter on the phone" />
+            </div>
+            <div className="w-fit h-auto transform rotate-6 my-9">
+              <Image src={restaurants_canlis1} alt="Picture of the peter next to a plane" />
+            </div>
+            <div className="w-fit h-auto transform -rotate-6 my-9">
+              <Image src={restaurants_canlis2} alt="Picture of the peter next to a plane" />
+            </div>
+          </div>
         </div>
-        <div className="w-fit h-auto transform rotate-6 my-9">
-          <Image src={restaurants_canlis1} alt="Picture of the peter next to a plane" />
-        </div>
-        <div className="w-fit h-auto transform -rotate-6 my-9">
-          <Image src={restaurants_canlis2} alt="Picture of the peter next to a plane" />
-        </div>
-
         <div className="grid place-items-center my-24 md:my-36">
           <h6 className="text-xs font-roboto">SECOND GENERATION</h6>
           <h6 className="text-xs font-roboto">1977 - 2007</h6>

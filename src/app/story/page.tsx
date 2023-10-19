@@ -127,22 +127,26 @@ export default function Ourstory(){
           <h6 className="text-xs font-roboto">1977 - 2007</h6>
         </div>
 
-        <div className="w-fit h-auto transform -rotate-6 my-9">
-          <Image src={Alice_Smiling} alt="Picture of the peter next to a plane" />
-        </div>
-        <div className="w-fit h-auto transform rotate-6 my-9">
-          <Image src={Seattle_Outside} alt="Picture of the peter next to a plane" />
-        </div>
-        <div className="md:mx-10 md:my-24">
-          <PP text="
-            In 1977, we moved to Seattle. I was three. That was the year my younger brother was born. The year Peter asked our father to take over the company. The year he eventually died of cancer. In 1977 the soul of our company passed away with its founder. And in its place a new soul was reborn. Wary of the repercussions of restaurant life on a family, mom and dad were reluctant restaurateurs. Our board of directors even advised they sell the company before ruining its value. Peter Canlis they were not. Seattle, the board, and everyone knew it...and this likely saved our company."
-          />
-          <PP text="
-            Our parents would shepherd Canlis restaurant for 30 years, choosing family first at every turn in the road. They shrank the business to focus on their marriage and their children. They elevated the brand in the face of new competition and a rapidly evolving industry. They won awards, helped build a city, influenced a nation, raised a family and stayed married to one another. They also practiced a kind of hospitality that would transcend the restaurant business. Hospitality, they’d say, is more than caring for someone. It’s a certain kind of turning towards “the other.” The stranger. The foreigner. The one who is different. It’s the act of carving out space for someone you may not understand, who may not look like you, for no other reason, no personal gain except the singular fulfillment gained from following a belief to its end: We fundamentally need one another, and we were made for relationship."
-          />
-          <PP text="
-            Hospitality was not so much a business for our parents as it was a natural response to the inevitable moment they came face to face with another human being. They taught us that carving out space for one another would likely be hard but worth it. That it was a form of generosity: a power and wealth that everyone had equal access and right to. A function of one’s character, not their circumstances."
-          />
+        <div className="lg:flex">
+          <div className="lg:flex lg:flex-col lg:w-8/12">
+            <div className="w-fit h-auto transform -rotate-6 my-9">
+              <Image src={Alice_Smiling} alt="Picture of the peter next to a plane" />
+            </div>
+            <div className="w-fit h-auto transform rotate-6 my-9">
+              <Image src={Seattle_Outside} alt="Picture of the peter next to a plane" />
+            </div>
+          </div>
+          <div className="md:mx-10 md:my-24 lg:w-9/12">
+            <PP text="
+              In 1977, we moved to Seattle. I was three. That was the year my younger brother was born. The year Peter asked our father to take over the company. The year he eventually died of cancer. In 1977 the soul of our company passed away with its founder. And in its place a new soul was reborn. Wary of the repercussions of restaurant life on a family, mom and dad were reluctant restaurateurs. Our board of directors even advised they sell the company before ruining its value. Peter Canlis they were not. Seattle, the board, and everyone knew it...and this likely saved our company."
+            />
+            <PP text="
+              Our parents would shepherd Canlis restaurant for 30 years, choosing family first at every turn in the road. They shrank the business to focus on their marriage and their children. They elevated the brand in the face of new competition and a rapidly evolving industry. They won awards, helped build a city, influenced a nation, raised a family and stayed married to one another. They also practiced a kind of hospitality that would transcend the restaurant business. Hospitality, they’d say, is more than caring for someone. It’s a certain kind of turning towards “the other.” The stranger. The foreigner. The one who is different. It’s the act of carving out space for someone you may not understand, who may not look like you, for no other reason, no personal gain except the singular fulfillment gained from following a belief to its end: We fundamentally need one another, and we were made for relationship."
+            />
+            <PP text="
+              Hospitality was not so much a business for our parents as it was a natural response to the inevitable moment they came face to face with another human being. They taught us that carving out space for one another would likely be hard but worth it. That it was a form of generosity: a power and wealth that everyone had equal access and right to. A function of one’s character, not their circumstances."
+            />
+          </div>
         </div>
         <div className="grid place-items-center my-24 md:my-36">
           <h6 className="text-xs font-roboto">THIRD GENERATION</h6>

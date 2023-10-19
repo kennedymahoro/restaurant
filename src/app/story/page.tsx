@@ -29,12 +29,12 @@ export default function Ourstory(){
   }
 
   return(
-    <div className = " w-full h-full bg-primary">
+    <div className = " w-screen h-screen bg-primary">
       <div className="md:mx-8 lg:absolute lg:w-screen lg:top-0">
         <Navbar />
       </div>
       <div>
-        <div className="text-5xl font-thinman font-thin mt-32 lg:mt-48 mb-64 ml-6 md:text-8xl md:mt-24 md:ml-12 lg:flex lg:justify-center lg:flex-col">
+        <div className="text-5xl font-thinman font-thin pt-32 lg:pt-48 mb-64 ml-6 md:text-8xl md:mt-24 md:ml-12 lg:flex lg:justify-center lg:flex-col">
           <div className=" lg:flex">
 
             <h1 className=" text-center">Every</h1>

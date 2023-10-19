@@ -59,10 +59,10 @@ export default function Ourstory(){
 
         <div className="lg:flex">
           <div className="lg:flex-col">
-            <div className="w-fit h-auto transform -rotate-6 my-9">
-              <Image src={Peter_Phone} alt="Picture of the peter on the phone"  />
+            <div className="w-fit h-auto transform -rotate-6 my-9 lg:w-8/12">
+              <Image src={Peter_Phone} alt="Picture of the peter on the phone"/>
             </div>
-            <div className="w-fit h-auto transform rotate-6 my-9">
+            <div className="w-fit h-auto transform rotate-6 my-9 lg:w-8/12">
               <Image src={Peter_Plane} alt="Picture of the peter next to a plane" />
             </div>
           </div>

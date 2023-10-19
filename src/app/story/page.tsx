@@ -79,21 +79,26 @@ export default function Ourstory(){
             />
           </div>
         </div>
+        
+        <div className="lg:flex">
+          <div className="md:mx-10 my-20 lg:w-9/12">
+            <PP text='
+              On December 7, 1941 Peter watched Imperial Japanese aircraft raid Wheeler Field. As a reeling nation lurched into action, the people of Honolulu, and our grandfather, put Pearl Harbor back together. To better support its troops, America formed the United Services Organization in 1941, and hired a young kid from Stockton who had a lot to prove to run one of the busiest kitchens in the Pacific. He won the job with a challenge that he could outcook anyone on the base, and within a few months a surging war and word of mouth saw the USO preparing 3,500 meals a day. Peter Canlis, who’d run away from the restaurant business, quickly showed the island that the best meal in Hawaii was at the USO.'
+            />
+            <PP text='
+              After the war, Peter opened his first restaurant, The Broiler, on a little-known beach called Waikiki. Humble in size (and signage...it hung from a palm tree) the restaurant hired Japanese women for the traditionally-male role of server captain. It was 1947. As best we know, these women changed the future of American fine dining. It was a social experiment ahead of its time. The Broiler exchanged European pretension for humility, hubris for Japanese warmth and hospitality. Gone were the tuxedos and traditional captain-style service. The Broiler, with firsts like tip-pools and team-style service, and cuisine that celebrated European and Eastern techniques was not just an immediate success, but nothing less than a recipe for the future of American dining.'
+            />
+          </div>
+          <div className="lg:flex lg:flex-col">
+            <div className="w-fit h-auto transform rotate-6 my-9 lg:w-8/12">
+              <Image src={Broiler_Door} alt="Picture of the restaurant door" />
+            </div>
+            <div className="w-fit h-auto transform -rotate-6 my-9 lg:w-8/12">
+              <Image src={Broiler_Patio} alt="Picture of the restaurant patio" />
+            </div>
+          </div>
+        </div>
 
-        <div className="md:mx-10 my-20">
-          <PP text='
-            On December 7, 1941 Peter watched Imperial Japanese aircraft raid Wheeler Field. As a reeling nation lurched into action, the people of Honolulu, and our grandfather, put Pearl Harbor back together. To better support its troops, America formed the United Services Organization in 1941, and hired a young kid from Stockton who had a lot to prove to run one of the busiest kitchens in the Pacific. He won the job with a challenge that he could outcook anyone on the base, and within a few months a surging war and word of mouth saw the USO preparing 3,500 meals a day. Peter Canlis, who’d run away from the restaurant business, quickly showed the island that the best meal in Hawaii was at the USO.'
-          />
-          <PP text='
-            After the war, Peter opened his first restaurant, The Broiler, on a little-known beach called Waikiki. Humble in size (and signage...it hung from a palm tree) the restaurant hired Japanese women for the traditionally-male role of server captain. It was 1947. As best we know, these women changed the future of American fine dining. It was a social experiment ahead of its time. The Broiler exchanged European pretension for humility, hubris for Japanese warmth and hospitality. Gone were the tuxedos and traditional captain-style service. The Broiler, with firsts like tip-pools and team-style service, and cuisine that celebrated European and Eastern techniques was not just an immediate success, but nothing less than a recipe for the future of American dining.'
-          />
-        </div>
-        <div className="w-fit h-auto transform rotate-6 my-9">
-          <Image src={Broiler_Door} alt="Picture of the restaurant door" />
-        </div>
-        <div className="w-fit h-auto transform -rotate-6 my-9">
-          <Image src={Broiler_Patio} alt="Picture of the restaurant patio" />
-        </div>
         <div className="md:mx-10 md:my-24">
           <PP text="
             In 1950, Peter Canlis moved to Seattle and opened the restaurant that would make his mark on the nation’s emerging fine dining scene. Borrowing all he could (fifty thousand dollars) he sought to build a restaurant in the heart of the city, but as an outsider he could not break in. Unknown, untrusted, and with “an idea so crazy that Seattle would never go for it” Peter fought to find his start. Famed restaurateur Walter Clark took an interest in the newcomer and offered a piece of land “way outside the city.” Even as young kids we could recite his answer: “If it’s within a dollar’s cab ride of downtown, they'll come."

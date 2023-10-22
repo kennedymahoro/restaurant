@@ -18,7 +18,7 @@ export default function Ourstory(){
   const PP = (props:{text:string}) => {
     return(
       <div className="flex  justify-start mx-2">
-        <p className="text-xss mx-2 my-4 md:my-2 font-merriweather">{props.text}</p>
+        <p className="text-xss lg:text-base mx-2 my-4 md:my-2 font-merriweather">{props.text}</p>
       </div>
     )
   }

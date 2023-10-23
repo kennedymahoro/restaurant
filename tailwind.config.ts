@@ -22,6 +22,11 @@ const config: Config = {
         'xss': ['.65rem',{
         lineHeight: '2.25em',
       }],
+        'xxs': ['.65rem',{
+        lineHeight: '2.25em',
+        letterSpacing: '0.10em',
+
+      }],
       },
 
     },

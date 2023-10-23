@@ -57,7 +57,7 @@ export default function Ourstory(){
           <p>1950 - 1977</p>
         </div>
 
-        <div className="lg:flex">
+        <div className="lg:flex  mx-10">
           <div className="lg:flex-col">
             <div className="w-fit h-auto transform -rotate-6 my-9 lg:w-8/12">
               <Image src={Peter_Phone} alt="Picture of the peter on the phone"/>
@@ -67,7 +67,7 @@ export default function Ourstory(){
             </div>
           </div>
 
-          <div className="md:mt-24 md:mx-10 lg:w-9/12">
+          <div className="md:mt-24 md:mx-10 lg:w-10/12 ">
             <H6 text="WORDS BY MARK CANLIS" />
             <PP text='Family lore has it that as a very young man, Nicholas Kanlis swam five miles from the island of Lesvos, Greece to the shores of Turkey. Then he hitchhiked his way to the Mena House Hotel in Cairo where he met Teddy Roosevelt and signed on as a cook for the Smithsonian–Roosevelt African Expedition. For more than a year they traveled the rural Africa together, collecting 1100 specimens that would find their way back to the Smithsonian Institute. Eventually, Nick would reach American shores, clearing immigration with an Egyptian passport and settling down in Stockton, California.'
             />

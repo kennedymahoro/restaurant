@@ -57,7 +57,7 @@ export default function Ourstory(){
           <p>1950 - 1977</p>
         </div>
 
-        <div className="lg:flex  mx-10">
+        <div className="lg:flex  mx-20">
           <div className="lg:flex-col">
             <div className="w-fit h-auto transform -rotate-6 my-9 lg:w-8/12">
               <Image src={Peter_Phone} alt="Picture of the peter on the phone"/>

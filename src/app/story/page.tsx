@@ -89,6 +89,7 @@ export default function Ourstory(){
               After the war, Peter opened his first restaurant, The Broiler, on a little-known beach called Waikiki. Humble in size (and signage...it hung from a palm tree) the restaurant hired Japanese women for the traditionally-male role of server captain. It was 1947. As best we know, these women changed the future of American fine dining. It was a social experiment ahead of its time. The Broiler exchanged European pretension for humility, hubris for Japanese warmth and hospitality. Gone were the tuxedos and traditional captain-style service. The Broiler, with firsts like tip-pools and team-style service, and cuisine that celebrated European and Eastern techniques was not just an immediate success, but nothing less than a recipe for the future of American dining.'
             />
           </div>
+
           <div className="lg:flex lg:flex-col">
             <div className="w-fit h-auto transform rotate-6 my-9 lg:w-8/12">
               <Image src={Broiler_Door} alt="Picture of the restaurant door" />
@@ -98,18 +99,18 @@ export default function Ourstory(){
             </div>
           </div>
         </div>
-        <div className="lg:flex lg:flex-row-reverse">
-        <div className="md:mx-10 md:my-24 lg:w-9/12">
-          <PP text="
-            In 1950, Peter Canlis moved to Seattle and opened the restaurant that would make his mark on the nation’s emerging fine dining scene. Borrowing all he could (fifty thousand dollars) he sought to build a restaurant in the heart of the city, but as an outsider he could not break in. Unknown, untrusted, and with “an idea so crazy that Seattle would never go for it” Peter fought to find his start. Famed restaurateur Walter Clark took an interest in the newcomer and offered a piece of land “way outside the city.” Even as young kids we could recite his answer: “If it’s within a dollar’s cab ride of downtown, they'll come."
-          />
-          <PP text="
-            Peter drew from what he could: his mother’s recipes, the beauty and grace of Japanese hospitality, the intoxication of Polynesian cuisine, the soul-warming embrace of the Hawaiian people. His impossibly lofty strategy was to build the most beautiful restaurant in the world. Eschewing the style of the great dining rooms in New York and Chicago, Peter hired then-undiscovered residential architect Roland Terry to build a restaurant that felt like a home. He bet on upstart Northwest artists (George Tsutakawa’s first sculpture is still our door handle). He snuck fresh fish from Hawaii on Pan Am flights and returned the same suitcases to The Broiler with salmon and Dungeness crab. He built his lounge around a piano and the first post-prohibition liquor license in the city and priced his menu twice as high as the nearest competitor. Then he invited kings and heads of state, business tycoons and civic leaders. He invited them before ever earning the right to. His experiment in Hawaii had worked and in Seattle he would double down on it. Finally, waiting to serve a city of skeptics and naysayers, was his team of women of Japanese descent who had recently endured internment, clad in their own stunning kimonos. Seattle fell for the restaurant and overnight, Europe’s 200-year, influential grip on American fine dining was under legitimate siege."
-          />
-          <PP text="
-            In the years to follow, three more restaurants were built. Returning to Hawaii with funds and reputation to spare, The Broiler was replaced with the island’s most iconic and storied restaurant, Canlis Honolulu. In San Francisco, he insisted The Fairmont rebuild the first floor to include Canlis’ iconic stone and windows. At the time, it was the most expensive restaurant ever built in America. In Portland, Baron Hilton asked him to build on top of his newest hotel, and then made deals for half a dozen more."
-          /> 
-        </div>
+        <div className="lg:flex lg:flex-row-reverse lg:mx-10">
+          <div className="md:mx-10 md:my-24 lg:w-11/12 lg:px-20">
+            <PP text="
+              In 1950, Peter Canlis moved to Seattle and opened the restaurant that would make his mark on the nation’s emerging fine dining scene. Borrowing all he could (fifty thousand dollars) he sought to build a restaurant in the heart of the city, but as an outsider he could not break in. Unknown, untrusted, and with “an idea so crazy that Seattle would never go for it” Peter fought to find his start. Famed restaurateur Walter Clark took an interest in the newcomer and offered a piece of land “way outside the city.” Even as young kids we could recite his answer: “If it’s within a dollar’s cab ride of downtown, they'll come."
+            />
+            <PP text="
+              Peter drew from what he could: his mother’s recipes, the beauty and grace of Japanese hospitality, the intoxication of Polynesian cuisine, the soul-warming embrace of the Hawaiian people. His impossibly lofty strategy was to build the most beautiful restaurant in the world. Eschewing the style of the great dining rooms in New York and Chicago, Peter hired then-undiscovered residential architect Roland Terry to build a restaurant that felt like a home. He bet on upstart Northwest artists (George Tsutakawa’s first sculpture is still our door handle). He snuck fresh fish from Hawaii on Pan Am flights and returned the same suitcases to The Broiler with salmon and Dungeness crab. He built his lounge around a piano and the first post-prohibition liquor license in the city and priced his menu twice as high as the nearest competitor. Then he invited kings and heads of state, business tycoons and civic leaders. He invited them before ever earning the right to. His experiment in Hawaii had worked and in Seattle he would double down on it. Finally, waiting to serve a city of skeptics and naysayers, was his team of women of Japanese descent who had recently endured internment, clad in their own stunning kimonos. Seattle fell for the restaurant and overnight, Europe’s 200-year, influential grip on American fine dining was under legitimate siege."
+            />
+            <PP text="
+              In the years to follow, three more restaurants were built. Returning to Hawaii with funds and reputation to spare, The Broiler was replaced with the island’s most iconic and storied restaurant, Canlis Honolulu. In San Francisco, he insisted The Fairmont rebuild the first floor to include Canlis’ iconic stone and windows. At the time, it was the most expensive restaurant ever built in America. In Portland, Baron Hilton asked him to build on top of his newest hotel, and then made deals for half a dozen more."
+            /> 
+          </div>
           <div className="lg:flex lg:flex-col lg:w-8/12">
             <div className="w-fit h-auto transform -rotate-6 my-9">
               <Image src={restaurants_canlis} alt="Picture of the peter on the phone" />

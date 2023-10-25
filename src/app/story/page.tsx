@@ -81,7 +81,7 @@ export default function Ourstory(){
         </div>
         
         <div className="lg:flex lg:mx-10">
-          <div className="md:mx-10 my-20 lg:w-9/12">
+          <div className="md:mx-10 my-20 lg:w-11/12 lg:px-20 lg:mx-0">
             <PP text='
               On December 7, 1941 Peter watched Imperial Japanese aircraft raid Wheeler Field. As a reeling nation lurched into action, the people of Honolulu, and our grandfather, put Pearl Harbor back together. To better support its troops, America formed the United Services Organization in 1941, and hired a young kid from Stockton who had a lot to prove to run one of the busiest kitchens in the Pacific. He won the job with a challenge that he could outcook anyone on the base, and within a few months a surging war and word of mouth saw the USO preparing 3,500 meals a day. Peter Canlis, who’d run away from the restaurant business, quickly showed the island that the best meal in Hawaii was at the USO.'
             />

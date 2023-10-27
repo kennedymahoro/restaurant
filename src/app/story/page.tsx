@@ -128,7 +128,7 @@ export default function Ourstory(){
           <h6 className="text-xs font-roboto">1977 - 2007</h6>
         </div>
 
-        <div className="lg:flex">
+        <div className="lg:flex lg:mx-20 lg:flex-row-reverse">
           <div className="lg:flex lg:flex-col lg:w-8/12">
             <div className="w-fit h-auto transform -rotate-6 my-9">
               <Image src={Alice_Smiling} alt="Picture of the peter next to a plane" />
@@ -137,7 +137,7 @@ export default function Ourstory(){
               <Image src={Seattle_Outside} alt="Picture of the peter next to a plane" />
             </div>
           </div>
-          <div className="md:mx-10 md:my-24 lg:w-9/12">
+          <div className="md:mx-10 md:my-24 lg:w-11/12 lg:px-10">
             <PP text="
               In 1977, we moved to Seattle. I was three. That was the year my younger brother was born. The year Peter asked our father to take over the company. The year he eventually died of cancer. In 1977 the soul of our company passed away with its founder. And in its place a new soul was reborn. Wary of the repercussions of restaurant life on a family, mom and dad were reluctant restaurateurs. Our board of directors even advised they sell the company before ruining its value. Peter Canlis they were not. Seattle, the board, and everyone knew it...and this likely saved our company."
             />

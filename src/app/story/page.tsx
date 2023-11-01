@@ -128,7 +128,7 @@ export default function Ourstory(){
           <h6 className="text-xs font-roboto">1977 - 2007</h6>
         </div>
 
-        <div className="lg:flex lg:mx-20 lg:flex-row-reverse">
+        <div className="lg:flex lg:mx-10 lg:flex-row-reverse">
           <div className="lg:flex lg:flex-col lg:w-8/12">
             <div className="w-fit h-auto transform -rotate-6 my-9">
               <Image src={Alice_Smiling} alt="Picture of the peter next to a plane" />

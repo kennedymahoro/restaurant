@@ -163,7 +163,7 @@ export default function Ourstory(){
               <Image src={beardd} alt="Picture of the peter next to a plane" />
             </div>
           </div>
-          <div className="md:mx-10 md:my-24 lg:w-9/12">
+          <div className="md:mx-10 md:my-24 lg:w-11/12 lg:px-20">
             <PP text="
               In 2007, my brother and I officially took over the company. We took it from a Greek runaway come to America to find a new home. We took it from a restaurant visionary who staked it all to make a name for his family. We took it from the loving arms of our parents who breathed life into the world around them."
             />

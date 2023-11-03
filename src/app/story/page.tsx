@@ -154,7 +154,7 @@ export default function Ourstory(){
           <h6 className="text-xs font-roboto">2007 - PRESENT</h6>
         </div>
 
-        <div className="lg:flex lg:mx-10">
+        <div className="lg:flex lg:mx-20">
           <div className="lg:flex lg:flex-col lg:w-8/12">
             <div className="w-fit h-auto transform -rotate-6 my-9">
               <Image src={markbrain} alt="Picture of the peter on the phone" />

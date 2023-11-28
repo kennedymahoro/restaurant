@@ -24,6 +24,14 @@ export default function Page() {
               <input type="submit" value="Message (OPTIONAL) " />
             </div>
 
+            <div>
+              <h5>Shipping</h5>
+              <div>
+                <input type="radio" value="SHIP TO ME" />
+                <input type="radio" value="SHIP TO RECIPIENT" />
+              </div>
+            </div>
+
           </div>
         </div>
       </main>

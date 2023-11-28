@@ -18,6 +18,11 @@ export default function Page() {
           <div>
             <h1>$</h1>
             <input type="number" />
+            <div>
+              <input type="submit" value="From: " />
+              <input type="submit" value="To: " />
+              <input type="submit" value="Message (OPTIONAL) " />
+            </div>
 
           </div>
         </div>

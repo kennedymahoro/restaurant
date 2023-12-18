@@ -30,6 +30,18 @@ export default function Page() {
                 <input type="radio" value="SHIP TO ME" />
                 <input type="radio" value="SHIP TO RECIPIENT" />
               </div>
+              <h5>Payment</h5>
+
+              <div>
+                <input type="submit" value="NAME ON CARD " />
+                <input type="number" value="CARD NUMBER " />
+                <div>
+                  <input type="number" value="EXP. (MM)" />
+                  <input type="number" value="EXP. (YY) " />
+                  <input type="number" value="SECURITY CODE " />
+                </div>
+              </div>
+
             </div>
 
           </div>

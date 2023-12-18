@@ -41,7 +41,11 @@ export default function Page() {
                   <input type="number" value="SECURITY CODE " />
                 </div>
               </div>
-
+              <h5>Contact</h5>
+              <div>
+                <input type="email" value="YOUR EMAIL " />
+                <input type="number" value="YOUR PHONE NUMBER " />
+              </div>
             </div>
 
           </div>

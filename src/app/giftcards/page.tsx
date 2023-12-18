@@ -47,8 +47,10 @@ export default function Page() {
                 <input type="number" value="YOUR PHONE NUMBER " />
               </div>
             </div>
-
           </div>
+          <button>Purchase</button>
+          <p>Gift cards are processed on the following business day. Please allow 5-7 days for shipping.</p>
+            
         </div>
       </main>
 

@@ -17,7 +17,7 @@ export default function Page() {
           <h5 className="font-roboto">Amount</h5>
           <div>
             <div className="flex">
-            <h1>$</h1>
+            <h1 className="text-4xl font-thinman">$</h1>
             <input type="number" />
             </div>
             <div>

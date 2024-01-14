@@ -16,9 +16,9 @@ export default function Page() {
         <div>
           <h5 className="font-roboto">Amount</h5>
           <div>
-            <div className="flex">
+            <div className="flex border-b">
             <h1 className="text-4xl font-thinman">$</h1>
-            <input type="number" />
+            <input className="outline-none" type="number" />
             </div>
             <div>
               <input type="submit" value="From: " />

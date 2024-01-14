@@ -14,7 +14,7 @@ export default function Page() {
 
         {/* Form goes here */}
         <div>
-          <h5>Amount</h5>
+          <h5 className="font-roboto">Amount</h5>
           <div>
             <h1>$</h1>
             <input type="number" />
